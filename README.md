@@ -47,10 +47,10 @@ The lyrics sequence input is the same as the first model.
 #### Melody Sequence input 
 Represent a sequence timestamps matrix of the melody.
 - Chroma – A sequence of chroma vectors.  - 12 dim X sequence length
-- Piano Roll - The relative amount of each piano roll across the entire song – 128 dim X sequence length.\
+- Piano Roll - The relative amount of each piano roll across the entire song – 128 dim X sequence length.
 In order to achieve a fixed size of the sequence length:
 - Sampled the length of all melodies
-- Since the lengths vary, we wanted to find the number that will represent the central part of the melody. Therefore, we figured that the Median length of the melodies will be represent most songs.\
+- Since the lengths vary, we wanted to find the number that will represent the central part of the melody. Therefore, we figured that the Median length of the melodies will be represent most songs.
 The frequency of sampling  was one second for sequence length. 
 The outcome Matrix had the dimension 221x140
 
