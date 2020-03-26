@@ -12,7 +12,7 @@ The main idea of this model is to find language model that predict the next word
 #### Lyrics Sequence input
 Our approach is to split up the source text line-by-line, then break each line down into a series of words that build up. By that, each word will first be represented separately, and also as a part of a sequence.
 The general Sequence format will be as the following:
-'[word1, word2, word3, ... , word10]'
+[word1, word2, word3, ... , word10]
 
 
 
