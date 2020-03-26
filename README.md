@@ -22,6 +22,14 @@ Represent a melody, loaded with pretty_midi object and provide aspects of 5 diff
 - BPM – normalize beat per minute – 1 dim
 Total of 297 dimensions.
 
+### Model architecture:
+The model consists of several important layers:
+- Embedding - Embed each word of the sequence input ( Pre-trained - FastText )
+- Two LSTM Layers
+- Concatenation layer - Combining the LSTM output with the melody input.
+- Two Dense Layers - with dropout regularization.
+- Softmax Layer - to produce probabilities vector.
+
 
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
 
