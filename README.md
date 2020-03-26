@@ -67,7 +67,7 @@ In order to achieve a fixed size of the sequence length:
 - Sampled the length of all melodies
 - Since the lengths vary, we wanted to find the number that will represent the central part of the melody. Therefore, we figured that the Median length of the melodies will be represent most songs.
 
-The frequency of sampling  was one second for sequence length. / The outcome Matrix had the dimension 221x140
+The frequency of sampling  was one second for sequence length. <br /> The outcome Matrix had the dimension 221x140
 
 <br />
 
