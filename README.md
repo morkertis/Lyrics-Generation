@@ -81,4 +81,4 @@ Concatenate - combined context with the decoder output by concatenation
 The last layers of the model are flattened and dense with regularization
 Predict next word of the sequence by a softmax
 
-<img src="https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot2.png" width="70%" height="70%">
+<img src="https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot2.png" width="80%" height="80%">
