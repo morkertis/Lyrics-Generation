@@ -31,7 +31,6 @@ The model consists of several important layers:
 - Softmax Layer - to produce probabilities vector.
 \
 \
-\
 
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
 In the second model we implement a model based on Neural Machine Translation where the source language is the melody and the target language is the lyrics. 
