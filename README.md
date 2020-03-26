@@ -1,8 +1,7 @@
 # Lyrics-Generation
 ## Models for Lyrics Generation
 
-## Model 1 
-### Language Model with melody embedded
+## Model 1 - Language Model with melody embedded
 In our first model we created a language model having two inputs - lyrics and the melody vector. The lyrics represent as sequences and the melody is represented by a vector with 5 different aspect of summarized melody data.
 
 ### Approach for integrating the melody information together with the lyrics
@@ -24,5 +23,5 @@ Represent a melody, loaded with pretty_midi object and provide aspects of 5 diff
 Total of 297 dimensions.
 
 
-### Model 2 - Neural Machine Translation from Melody to Lyrics
+## Model 2 - Neural Machine Translation from Melody to Lyrics
 
