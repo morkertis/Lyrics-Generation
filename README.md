@@ -25,6 +25,8 @@ Represent a melody, loaded with pretty_midi object and provide aspects of 5 diff
 - BPM – normalize beat per minute – 1 dim
 Total of 297 dimensions.
 
+<br />
+
 ### Model architecture:
 The model consists of several important layers:
 - Embedding - Embed each word of the sequence input ( Pre-trained - FastText )
@@ -43,10 +45,14 @@ The model consists of several important layers:
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
 In the second model we implement a model based on Neural Machine Translation where the source language is the melody and the target language is the lyrics. 
 
+<br />
+
 ### Approach for integrating the melody information together with the lyrics:
 By this assumption we use Seq2Seq (Encoder-Decoder) model where the Encoder get a sequence of melody and the decoder get a sequence of lyrics and predict the next word. The difference in melody input will be explained further in the model input section.
 Because there is long sequences we added another component – attention mechanism. 
 The outcome - a model like machine translation with attention – seq2seq with attention.
+
+<br />
 
 ### Model Inputs
 #### Lyrics Sequence input 
@@ -63,6 +69,8 @@ In order to achieve a fixed size of the sequence length:
 
 The frequency of sampling  was one second for sequence length./ 
 The outcome Matrix had the dimension 221x140
+
+<br />
 
 ### Model architecture
 #### Encoder - Melody
