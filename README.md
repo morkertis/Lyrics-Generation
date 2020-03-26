@@ -31,6 +31,8 @@ The model consists of several important layers:
 - Softmax Layer - to produce probabilities vector.
 
 ![model1](https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot1.png)
+
+<br />
 <br />
 
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
