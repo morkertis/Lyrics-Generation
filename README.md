@@ -30,6 +30,6 @@ The model consists of several important layers:
 - Two Dense Layers - with dropout regularization.
 - Softmax Layer - to produce probabilities vector.
 
-
+'''
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
 
