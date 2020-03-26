@@ -1,4 +1,9 @@
 # Models for Lyrics Generation
+In the following models we will introduce two approaches of handling the following task:
+Generating lyrics for a song given a melody and initial word.
+
+<br />
+<br />
 
 ## Model 1 - Language Model with melody embedded
 In our first model we created a language model having two inputs - lyrics and the melody vector. The lyrics represent as sequences and the melody is represented by a vector with 5 different aspect of summarized melody data.
