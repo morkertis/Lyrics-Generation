@@ -1,6 +1,6 @@
 # Models for Lyrics Generation
-In the following models we will introduce two approaches of handling the following task:
-Generating lyrics for a song given a melody and initial word.
+#### In the following models we will introduce two approaches of handling the following task:
+#### Generating lyrics for a song given a melody and initial word.
 
 <br />
 <br />
