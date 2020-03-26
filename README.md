@@ -29,7 +29,9 @@ The model consists of several important layers:
 - Concatenation layer - Combining the LSTM output with the melody input.
 - Two Dense Layers - with dropout regularization.
 - Softmax Layer - to produce probabilities vector.
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
