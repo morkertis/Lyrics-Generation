@@ -56,4 +56,26 @@ In order to achieve a fixed size of the sequence length:
 The frequency of sampling  was one second for sequence length./ 
 The outcome Matrix had the dimension 221x140
 
+### Model architecture
+#### Encoder - Melody
+- Input of matrix of sequence for each melody
+- LSTM layer
+- Three outputs – sequence output, LSTM hidden state and cell state
+
+#### Decoder – Lyrics
+- Input of sequence of lyrics
+- Embedding of the words (Pre- trained - FastText)
+- LSTM (input - Encoder’s last 2 states as initial state for hidden state, cell state)
+- Output the sequence
+
+#### Attention
+- Dot product between encoder sequence output and decoder sequence output
+- Softmax
+
+#### Context and output of the model
+Context - Will be computed by using the encoder sequence output and dot product with the attention
+Concatenate - combined context with the decoder output by concatenation
+The last layers of the model are flattened and dense with regularization
+Predict next word of the sequence by a softmax
+
 
