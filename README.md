@@ -30,6 +30,7 @@ The model consists of several important layers:
 - Two Dense Layers - with dropout regularization.
 - Softmax Layer - to produce probabilities vector.
 
+![model1]()
 <br />
 
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
@@ -78,4 +79,4 @@ Concatenate - combined context with the decoder output by concatenation
 The last layers of the model are flattened and dense with regularization
 Predict next word of the sequence by a softmax
 
-
+![model2]()
