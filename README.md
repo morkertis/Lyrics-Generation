@@ -30,6 +30,12 @@ The model consists of several important layers:
 - Two Dense Layers - with dropout regularization.
 - Softmax Layer - to produce probabilities vector.
 
-'
 ## Model 2 - Neural Machine Translation from Melody to Lyrics
+In the second model we implement a model based on Neural Machine Translation where the source language is the melody and the target language is the lyrics. 
+
+### Approach for integrating the melody information together with the lyrics:
+By this assumption we use Seq2Seq (Encoder-Decoder) model where the Encoder get a sequence of melody and the decoder get a sequence of lyrics and predict the next word. The difference in melody input will be explained further in the model input section.
+Because there is long sequences we added another component – attention mechanism. 
+The outcome - a model like machine translation with attention – seq2seq with attention.
+
 
