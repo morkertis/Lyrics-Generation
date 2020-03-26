@@ -30,7 +30,7 @@ The model consists of several important layers:
 - Two Dense Layers - with dropout regularization.
 - Softmax Layer - to produce probabilities vector.
 
-![model1](https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot1.png)
+<img src="https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot1.png" width="70%" height="70%">
 
 <br />
 <br />
@@ -81,4 +81,4 @@ Concatenate - combined context with the decoder output by concatenation
 The last layers of the model are flattened and dense with regularization
 Predict next word of the sequence by a softmax
 
-![model2](https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot2.png)
+<img src="https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot2.png" width="70%" height="70%">
