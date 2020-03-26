@@ -14,6 +14,14 @@ Our approach is to split up the source text line-by-line, then break each line d
 The general Sequence format will be as the following:
 [word1, word2, word3, ... , word10]
 
+#### Melody input
+Represent a melody, loaded with pretty_midi object and provide aspects of 5 different melody data.
+- Semitone –The relative amount of each semitone across the entire song  - 12 dim
+- Piano Roll - The relative amount of each piano roll across the entire song – 128 dim
+- Transition Matrix  - Total pitch class transition matrix of all instruments normalize and flattened – 144
+- Histogram -  The frequency of pitch classes of all instruments – dim 12
+- BPM – normalize beat per minute – 1 dim
+Total of 297 dimensions.
 
 
 ### Model 2 - Neural Machine Translation from Melody to Lyrics
