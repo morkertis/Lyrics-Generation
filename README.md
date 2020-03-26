@@ -77,10 +77,10 @@ The outcome Matrix had the dimension 221x140
 - Softmax
 
 #### Context and output of the model
-Context - Will be computed by using the encoder sequence output and dot product with the attention
-Concatenate - combined context with the decoder output by concatenation
-The last layers of the model are flattened and dense with regularization
-Predict next word of the sequence by a softmax
+- Context - Will be computed by using the encoder sequence output and dot product with the attention
+- Concatenate - combined context with the decoder output by concatenation
+- The last layers of the model are flattened and dense with regularization
+- Predict next word of the sequence by a softmax
 
 <p align="center">
 <img src="https://github.com/morkertis/Lyrics-Generation/blob/master/model_plot2.png" width="80%" height="80%">
